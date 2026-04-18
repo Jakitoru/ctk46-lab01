@@ -12,8 +12,12 @@ export default function Navbar() {
     { href: "/about", label: "Giới thiệu" },
     { href: "/blog", label: "Blog" },
     { href: "/projects", label: "Dự án" },
+    { href: "/guestbook", label: "Lưu bút" },
+    { href: "/pokemon", label: "Pokémon" },
     { href: "/contact", label: "Liên hệ" },
+
   ];
+
 
   return (
     <nav className="bg-white shadow-sm border-b sticky top-0 z-50">
